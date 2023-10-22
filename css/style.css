@@ -275,9 +275,6 @@ svg path {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 3.75rem;
-     -moz-column-gap: 3.75rem;
-          column-gap: 3.75rem;
 }
 
 .menu__link {
@@ -412,9 +409,10 @@ svg path {
   background: url("../img/src/hero_coffee_image.jpg") 0 0/cover no-repeat; }
 
 .hero {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
-  width: 100%;
-  z-index: -10;
+  max-width: 100%;
 }
 
 .hero__title-sub {
